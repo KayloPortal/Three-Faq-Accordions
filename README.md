@@ -176,9 +176,9 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-My name's Mohammad Mahmoodi also known as Kaylo, Pino, Parsa. You can reach me by:
+My name's Mohammad Mahmoodi also known as Kaylo, Pino, Parsa. You can reach me on:
 
-- LinkedIm: [@mohammadmahmoodi](https://twitter.com/mohammadmahmoodi)
+- LinkedIn: [@mohammadmahmoodi](https://twitter.com/mohammadmahmoodi)
 
 Project Link: [https://github.com/KayloPortal/Three-Faq-Accordions](https://github.com/KayloPortal/Three-Faq-Accordions)
 
