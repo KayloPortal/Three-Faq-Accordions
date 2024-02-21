@@ -9,6 +9,12 @@
     --fs-paragraph-100: .9375rem;
     --fs-paragraph-200: 1.125rem;
     --fs-paragraph-300: 1.5rem;
+    --fs-other-100: .75rem;
+    --fs-other-200: .875rem;
+    --fs-other-300: .9375rem;
+    --fs-other-400: 1rem;
+    --fs-other-500: 1.125rem;
+    --fs-other-600: 1.25rem;
   
     /* Font Families */
     --ff-english: "DM sans", sans-serif;
@@ -49,6 +55,7 @@
   :root {
     --fs-heading-100: 2.25rem;
     --fs-heading-200: 1.875rem;
+    --fs-paragraph-300: 1.25rem;
   }
 }
 
