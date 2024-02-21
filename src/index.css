@@ -37,6 +37,24 @@
     --clr-neutral-600: #6F6C90;
     --clr-neutral-700: #514F6E;
     --clr-neutral-800: #170F49;
+
+    /* Box-Shadows */
+    /* bxshadow-100 is equal to primary-100, watch this out when you want to change all blue colors of the website. */
+    --clr-bxshadow-100-h: 245;
+    --clr-bxshadow-100-s: 100%;
+    --clr-bxshadow-100-l: 61%;
+
+    --clr-bxshadow-200-h: 230;
+    --clr-bxshadow-200-s: 73%;
+    --clr-bxshadow-200-l: 12%;
+    
+    --clr-bxshadow-300-h: 240;
+    --clr-bxshadow-300-s: 37%;
+    --clr-bxshadow-300-l: 12%;
+        
+    --clr-bxshadow-400-h: 217;
+    --clr-bxshadow-400-s: 100%;
+    --clr-bxshadow-400-l: 59%;
   
     /* Layout */
     --page-block-padding: 8.75rem;
