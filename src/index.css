@@ -1,5 +1,4 @@
 :root {
-  :root {
     /* Font Sizing */
     --fs-heading-100: 3.25rem;
     --fs-heading-200: 2.125rem;
@@ -44,5 +43,4 @@
     --radius-200: 1.125rem;
     --radius-300: 1.25rem;
     --radius-400: 2.5rem;
-  }
 }
