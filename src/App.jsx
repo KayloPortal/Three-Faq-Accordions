@@ -1,12 +1,15 @@
-import Header from "./components/Sections/Header/Header"
+import Header from "./components/Sections/Header/Header";
+import Hero from "./components/Sections/Hero/Hero";
 
 function App() {
-
   return (
     <>
-      <Header />  
+      <header>
+        <Header />
+        <Hero />
+      </header>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
