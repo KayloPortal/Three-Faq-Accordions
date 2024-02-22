@@ -1,72 +1,72 @@
 :root {
-    /* Font Sizing */
-    --fs-heading-100: 3.25rem;
-    --fs-heading-200: 2.125rem;
-    --fs-heading-300: 1.5rem;
-    --fs-heading-400: 1.375rem;
-    --fs-heading-500: 1.125rem;
-    --fs-heading-600: 1rem;
-    --fs-paragraph-100: .9375rem;
-    --fs-paragraph-200: 1.125rem;
-    --fs-paragraph-300: 1.5rem;
-    --fs-other-100: .75rem;
-    --fs-other-200: .875rem;
-    --fs-other-300: .9375rem;
-    --fs-other-400: 1rem;
-    --fs-other-500: 1.125rem;
-    --fs-other-600: 1.25rem;
-  
-    /* Font Families */
-    --ff-english: "DM sans", sans-serif;
-  
-    /* Font Weights */
-    --fw-regular: 400;
-    --fw-medium: 500;
-    --fw-bold: 700;
-  
-    /* Colors */
-    --clr-primary-100: #4A3AFF;
-  
-    --clr-secondary-100: #F3F1FF;
-  
-    --clr-neutral-100: #FFFFFF;
-    --clr-neutral-200: #F7F7FB;
-    --clr-neutral-300: #EFF0F6;
-    --clr-neutral-400: #D9DBE9;
-    --clr-neutral-500: #A0A3BD;
-    --clr-neutral-600: #6F6C90;
-    --clr-neutral-700: #514F6E;
-    --clr-neutral-800: #170F49;
+  /* Font Sizing */
+  --fs-heading-100: 3.25rem;
+  --fs-heading-200: 2.125rem;
+  --fs-heading-300: 1.5rem;
+  --fs-heading-400: 1.375rem;
+  --fs-heading-500: 1.125rem;
+  --fs-heading-600: 1rem;
+  --fs-paragraph-100: 0.9375rem;
+  --fs-paragraph-200: 1.125rem;
+  --fs-paragraph-300: 1.5rem;
+  --fs-other-100: 0.75rem;
+  --fs-other-200: 0.875rem;
+  --fs-other-300: 0.9375rem;
+  --fs-other-400: 1rem;
+  --fs-other-500: 1.125rem;
+  --fs-other-600: 1.25rem;
 
-    /* Box-Shadows */
-    /* bxshadow-100 is equal to primary-100, watch this out when you want to change all blue colors of the website. */
-    --clr-bxshadow-100-h: 245;
-    --clr-bxshadow-100-s: 100%;
-    --clr-bxshadow-100-l: 61%;
+  /* Font Families */
+  --ff-english: "DM sans", sans-serif;
 
-    --clr-bxshadow-200-h: 230;
-    --clr-bxshadow-200-s: 73%;
-    --clr-bxshadow-200-l: 12%;
-    
-    --clr-bxshadow-300-h: 240;
-    --clr-bxshadow-300-s: 37%;
-    --clr-bxshadow-300-l: 12%;
-        
-    --clr-bxshadow-400-h: 217;
-    --clr-bxshadow-400-s: 100%;
-    --clr-bxshadow-400-l: 59%;
-  
-    /* Layout */
-    --page-block-padding: 8.75rem;
-    --page-inline-padding: 6.1875rem;
-    --page-minimum-padding: 1.5rem;
-    --page-layout-width: 1440px;
-  
-    /* Border Radius */
-    --radius-100: .875rem;
-    --radius-200: 1.125rem;
-    --radius-300: 1.25rem;
-    --radius-400: 2.5rem;
+  /* Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Colors */
+  --clr-primary-100: #4a3aff;
+
+  --clr-secondary-100: #f3f1ff;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #f7f7fb;
+  --clr-neutral-300: #eff0f6;
+  --clr-neutral-400: #d9dbe9;
+  --clr-neutral-500: #a0a3bd;
+  --clr-neutral-600: #6f6c90;
+  --clr-neutral-700: #514f6e;
+  --clr-neutral-800: #170f49;
+
+  /* Box-Shadows */
+  /* bxshadow-100 is equal to primary-100, watch this out when you want to change all blue colors of the website. */
+  --clr-bxshadow-100-h: 245;
+  --clr-bxshadow-100-s: 100%;
+  --clr-bxshadow-100-l: 61%;
+
+  --clr-bxshadow-200-h: 230;
+  --clr-bxshadow-200-s: 73%;
+  --clr-bxshadow-200-l: 12%;
+
+  --clr-bxshadow-300-h: 240;
+  --clr-bxshadow-300-s: 37%;
+  --clr-bxshadow-300-l: 12%;
+
+  --clr-bxshadow-400-h: 217;
+  --clr-bxshadow-400-s: 100%;
+  --clr-bxshadow-400-l: 59%;
+
+  /* Layout */
+  --page-block-padding: 8.75rem;
+  --page-inline-padding: 6.1875rem;
+  --page-minimum-padding: 1.5rem;
+  --page-layout-width: 1440px;
+
+  /* Border Radius */
+  --radius-100: 0.875rem;
+  --radius-200: 1.125rem;
+  --radius-300: 1.25rem;
+  --radius-400: 2.5rem;
 }
 
 @media (max-width: 64em) {
@@ -124,11 +124,11 @@
   line-height: 2.375rem;
 }
 
-@media (max-width: 64em){
+@media (max-width: 64em) {
   .fs-heading-100 {
     line-height: 2.75rem;
   }
-  
+
   .fs-heading-200 {
     line-height: 2.5rem;
   }
@@ -200,4 +200,59 @@
 
 .clr-primary-100 {
   color: var(--clr-primary-100);
+}
+
+/* defaults */
+
+.container {
+  width: min(
+    var(--page-layout-width) - var(--page-inline-padding) * 2,
+    100% - var(--page-minimum-padding)
+  );
+  margin-inline: auto;
+}
+
+.block-padding {
+  padding-top: var(--page-block-padding);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--ff-english);
+  color: var(--clr-neutral-600);
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul[role="list"] {
+  list-style: none;
 }
