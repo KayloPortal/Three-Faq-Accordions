@@ -1,0 +1,36 @@
+body {
+  --header-h: 7.875rem;
+  padding-top: var(--header-h);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+  gap: 2rem;
+  height: var(--header-h);
+}
+
+.header__button {
+  line-height: 1.25rem;
+  padding: 1.25rem 2.5rem;
+  background-color: var(--clr-primary-100);
+  border-radius: 3.5rem;
+}
+
+.header__logo {
+  width: min(100%, 19rem);
+}
+
+@media (max-width: 64em) {
+  body {
+    --header-h: 5.5rem;
+  }
+}
