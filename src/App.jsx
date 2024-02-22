@@ -1,8 +1,11 @@
+import Header from "./components/Sections/Header/Header"
 
 function App() {
 
   return (
-    <h1>Hello Practice Project</h1>
+    <>
+      <Header />  
+    </>
   )
 }
 
