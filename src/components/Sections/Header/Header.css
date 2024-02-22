@@ -23,6 +23,11 @@ body {
   padding: 1.25rem 2.5rem;
   background-color: var(--clr-primary-100);
   border-radius: 3.5rem;
+  transition: opacity ease .25s;
+}
+
+.header__button:hover {
+  opacity: .85;
 }
 
 .header__logo {
