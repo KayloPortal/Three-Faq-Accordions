@@ -1,13 +1,17 @@
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import "./EmailInput.css";
 
-function EmailInput({ state, stateHandler }) {
+function EmailInput() {
+  const [email, setemail] = useState("")
+
   return (
     <form className="email-form" action="">
       <input
         className="email-form__input"
         placeholder="Enter your email"
-        value={state.email}
-        onChange={() => stateHandler("email")}
+        value={email}
+        onChange={({target}) => setemail(target.value)}
         name="email"
         type="text"
       />
