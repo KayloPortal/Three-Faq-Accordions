@@ -1,5 +1,6 @@
 import "./Hero.css";
 import iconCheck from "/public/icon-check.svg" 
+import EmailInput from "/src/components/globals/EmailInput/EmailInput"
 
 function Hero() {
   return (
@@ -14,6 +15,7 @@ function Hero() {
           Webflow cloneables, resources and more? Please submit your email
           below.
         </p>
+        <EmailInput />
         <div className="hero-details">
         <img className="hero-details__icon" src={iconCheck} alt="check-icon" />
         <p className="hero-details__desc">
