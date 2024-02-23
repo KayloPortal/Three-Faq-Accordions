@@ -6,7 +6,7 @@ function EmailInput() {
   const [email, setemail] = useState("")
 
   return (
-    <form className="email-form | fs-other-500" action="">
+    <form className="email-form | fs-other-500 fs-other-300-m" action="">
       <input
         className="email-form__input | fw-regular"
         placeholder="Enter your email"
