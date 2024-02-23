@@ -166,6 +166,32 @@
   font-size: var(--fs-other-600);
 }
 
+@media(max-width: 64em){
+  .fs-other-100-m {
+    font-size: var(--fs-other-100);
+  }
+  
+  .fs-other-200-m {
+    font-size: var(--fs-other-200);
+  }
+  
+  .fs-other-300-m {
+    font-size: var(--fs-other-300);
+  }
+  
+  .fs-other-400-m {
+    font-size: var(--fs-other-400);
+  }
+  
+  .fs-other-500-m {
+    font-size: var(--fs-other-500);
+  }
+  
+  .fs-other-600-m {
+    font-size: var(--fs-other-600);
+  }  
+}
+ 
 .clr-neutral-100 {
   color: var(--clr-neutral-100);
 }
