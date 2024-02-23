@@ -14,6 +14,7 @@
       6%
     );
   padding-right: 1rem;
+  border: .0625rem solid var(--clr-neutral-300);
 }
 
 .email-form__input {
@@ -29,6 +30,10 @@
   color: var(--clr-neutral-600);
 }
 
+.email-form__input:focus {
+  outline-color: var(--clr-neutral-500);
+}
+
 .email-form__submit {
   padding-inline: var(--submit-inline-padding, 2rem);
   padding-top: var(--submit-top-padding, 1rem);
@@ -37,4 +42,9 @@
   border-radius: 100dvw;
   margin-block: 0.75rem;
   font-size: inherit;
+  transition: opacity ease .25s;
+}
+
+.email-form__submit:hover {
+  opacity: .85;
 }
