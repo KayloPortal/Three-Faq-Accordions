@@ -1,0 +1,51 @@
+.hero {
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.hero .email-form {
+  margin-inline: auto;
+}
+
+.hero__subheading {
+  text-transform: uppercase; 
+  line-height: 1.125rem;
+}
+
+.hero__heading {
+  max-width: 20ch;
+  margin-inline: auto;
+  margin-block: .75rem;
+}
+
+.hero__desc {
+  max-width: 56ch;
+  margin-inline: auto;
+}
+
+.hero-details {
+  display: flex;
+  gap: .675rem;
+  text-align: left;
+  justify-content: center;
+}
+
+@media (max-width: 64em){
+  .hero__desc {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-details {
+    margin-top: 1rem;
+  }
+}
+
+@media (width > 64em){
+  .hero__desc {
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-details {
+    margin-top: 1.5rem;
+  }
+}
