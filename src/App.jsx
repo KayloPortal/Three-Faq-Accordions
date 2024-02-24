@@ -1,3 +1,4 @@
+import FaqFirst from "./components/Sections/FaqFirst/FaqFirst";
 import Header from "./components/Sections/Header/Header";
 import Hero from "./components/Sections/Hero/Hero";
 import SubmittedEmailsProvider from "./contexts/submitedEmails";
@@ -9,6 +10,9 @@ function App() {
         <Header />
         <Hero />
       </header>
+      <main>
+        <FaqFirst />
+      </main>
     </SubmittedEmailsProvider>
   );
 }
