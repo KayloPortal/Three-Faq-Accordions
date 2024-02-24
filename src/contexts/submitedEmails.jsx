@@ -1,16 +1,16 @@
-import { createContext, useRef } from "react";
+import { createContext, useState } from "react";
 
 const submittedEmailsContext = createContext(null);
 
 // eslint-disable-next-line react/prop-types
 function SubmittedEmailsProvider({children}) {
-  const submittedEmails = useRef([]);
+  const [submittedEmails, setSubmitedEmails] = useState([]);
   return (
     <submittedEmailsContext.Provider
       value={{
         value: submittedEmails,
         setValue: (newValue) => {
-          submittedEmails.current = newValue;
+          setSubmitedEmails(newValue)
         },
       }}
     >{children}</submittedEmailsContext.Provider>
