@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
-import { useRef, useState } from "react";
+import { useContext, useState } from "react";
 import "./EmailInput.css";
 import toast, { Toaster } from "react-hot-toast";
+import {getSubmittedEmails} from "/src/contexts/submitedEmails"
 
 function EmailInput() {
   const [email, setEmail] = useState("");
   // When an API is available, this will asked from the API. Because I don't have an api here, I use this array just for testing and a showcase.
-  const emailsSubmitted = useRef([])
+  const submitedEmails = useContext(getSubmittedEmails())
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
   const submitData = (e) => {
@@ -14,7 +15,7 @@ function EmailInput() {
     const match = email.match(emailRegex);
     // match ? ss
     if (match !== null && match[0] === email) {
-      emailsSubmitted.current.includes(email) ? renderError("This email is joined before") : sendData()
+      submitedEmails.value.includes(email) ? renderError("This email is joined before") : sendData()
 
     } else {
       renderError("Please enter a valid email");
@@ -22,7 +23,7 @@ function EmailInput() {
   };
 
   const sendData = () => {
-    emailsSubmitted.current.push(email)
+    submitedEmails.setValue([...submitedEmails.value, email])
     toast.success("You joined the newslatter!");
   };
 
