@@ -15,6 +15,7 @@
   --fs-other-400: 1rem;
   --fs-other-500: 1.125rem;
   --fs-other-600: 1.25rem;
+  --fs-other-700: 1.375rem;
 
   /* Font Families */
   --ff-english: "DM sans", sans-serif;
@@ -164,6 +165,10 @@
 
 .fs-other-600 {
   font-size: var(--fs-other-600);
+}
+
+.fs-other-700 {
+  font-size: var(--fs-other-700);
 }
 
 @media(max-width: 64em){
