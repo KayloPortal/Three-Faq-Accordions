@@ -24,7 +24,7 @@ function FaqFirst() {
   ].map(data => {return {...data, id: nanoid()}}));
   return (
     <div className="faq | faq-first">
-      <Faq faqData={faqData} faqHeader="1. FAQ Accordion V1" faqClass={"faq-accordions--first"} />
+      <Faq faqData={faqData} faqHeader="1. FAQ Accordion V1" faqClass={"faq-main--first"} />
     </div>
   );
 }

@@ -6,16 +6,19 @@
   display: flex;
 }
 
-.faq-accordions--first {
+.faq-main--first {
   padding-top: 8rem;
   padding-bottom: 7.25rem;
+}
+
+.faq-main--first .faq-accordions {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2.875rem;
   transition: all .25s;
 }
 
-.faq-accordions--first .accordion {
+.faq-main--first .accordion {
   cursor: pointer;
   width: min(100%, 56rem);
   background-color: var(--clr-neutral-100);
@@ -31,7 +34,7 @@
   transition: all .1s;
 }
 
-.faq-accordions--first .accordion--selected {
+.faq-main--first .accordion--selected {
   box-shadow: 0 0.375rem 1rem
     hsla(
       var(--clr-bxshadow-100-h),
@@ -42,7 +45,7 @@
     border: .125rem solid var(--clr-primary-100);
 }
 
-.faq-accordions--first .accordion-toggle {
+.faq-main--first .accordion-toggle {
   background-color: var(--clr-neutral-100);
   border-radius: 50%;
   width: 3.125rem;
@@ -59,22 +62,22 @@
   transition: all .15s;
 }
 
-.faq-accordions--first .accordion--selected .accordion-toggle {
+.faq-main--first .accordion--selected .accordion-toggle {
   background-color: var(--clr-primary-100);
   transform: rotateZ(90deg);
 }
 
-.faq-accordions--first .accordion-toggle__icon {
+.faq-main--first .accordion-toggle__icon {
   stroke: var(--clr-primary-100);
   width: 1.5rem;
   object-position: center;
 }
 
-.faq-accordions--first .accordion--selected .accordion-toggle__icon {
+.faq-main--first .accordion--selected .accordion-toggle__icon {
   stroke: var(--clr-neutral-100);
 }
 
-.faq-accordions--first .accordion__desc {
+.faq-main--first .accordion__desc {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -82,7 +85,7 @@
   transition: all .4s;
 }
 
-.faq-accordions--first .accordion--selected .accordion__desc {
+.faq-main--first .accordion--selected .accordion__desc {
   margin-top: .375rem;
   opacity: 1;
   max-height: 8rem;

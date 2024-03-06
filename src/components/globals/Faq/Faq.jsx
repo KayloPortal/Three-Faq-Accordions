@@ -13,8 +13,8 @@ function Faq({ faqHeader, faqData, faqClass }) {
           Preview Cloneable
         </button>
       </div>
-      <div className="faq-main">
-        <div className={`faq-accordions ${faqClass} | round-300`}>
+      <div className={`faq-main | ${faqClass} round-300`}>
+        <div className={`faq-accordions`}>
           <Accordions accordionsData={faqData} />
         </div>
       </div>
