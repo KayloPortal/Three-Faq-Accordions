@@ -1,4 +1,5 @@
 import Accordions from "../../globals/Accordions/Accordions";
+import SimpleHeader from "../../globals/SimpleHeader/SimpleHeader";
 import "./FaqFirst.css";
 import { nanoid } from "nanoid";
 import { useRef } from "react";
@@ -26,19 +27,16 @@ function FaqFirst() {
       return { ...data, id: nanoid() };
     })
   );
-  
+
   return (
     <div className="faq | faq-first">
       {/* <Faq faqData={faqData} faqHeader="1. FAQ Accordion V1" faqClass={"faq-main--first"} /> */}
       <div className="container">
-        <div className="faq-header | round-200">
-          <h2 className="faq-header__heading | fs-heading-300 clr-neutral-800 fw-bold ">
-            1. FAQ Accordion V1
-          </h2>
-          <button className="faq-header__button | clr-primary-100 fw-medium">
-            Preview Cloneable
-          </button>
-        </div>
+        <SimpleHeader
+          heading={"1. FAQ Accordion V1"}
+          ctaText={"Preview Cloneable"}
+          headerClass={"faq-header"}
+        />
         <div className={`faq-main | faq-main--first round-300`}>
           <div className={`faq-accordions`}>
             <Accordions accordionsData={faqData} />
