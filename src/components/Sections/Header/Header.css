@@ -8,6 +8,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background-color: var(--clr-neutral-110);
 }
 
 .header-container {
