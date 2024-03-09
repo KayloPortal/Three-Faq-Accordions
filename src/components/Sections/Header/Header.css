@@ -9,6 +9,7 @@ body {
   left: 0;
   right: 0;
   background-color: var(--clr-neutral-110);
+  z-index: 100;
 }
 
 .header-container {
