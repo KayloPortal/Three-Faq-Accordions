@@ -40,7 +40,7 @@ function FaqFirst() {
         />
         <div className={`faq-main | faq-main--first round-300`}>
           <div className={`faq-accordions`}>
-            <Accordions accordionsData={faqData} iconType={"chevron"} />
+            <Accordions accordionsData={faqData} iconType={"chevron"} needWraper={false} />
           </div>
         </div>
       </div>
