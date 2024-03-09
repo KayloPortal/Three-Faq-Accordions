@@ -97,7 +97,7 @@ function FaqSecond() {
             ))}
           </div>
           <div className={`faq-accordions`}>
-            <Accordions accordionsData={faqData[page - 1]} iconType={"math"} />
+            <Accordions accordionsData={faqData[page - 1]} iconType={"math"} needWraper={false}/>
           </div>
         </div>
       </div>
