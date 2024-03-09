@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "SimpleHeader.css";
+import "./SimpleHeader.css";
 
 function SimpleHeader({headerClass, heading, ctaText}) {
   return (

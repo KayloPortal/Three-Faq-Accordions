@@ -32,6 +32,7 @@
   border-radius: var(--radius-100);
   padding: 2.875rem 2.375rem;
   transition: all .1s;
+  margin-inline: auto;
 }
 
 .faq-main--first .accordion--selected {

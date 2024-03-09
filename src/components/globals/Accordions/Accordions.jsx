@@ -1,11 +1,19 @@
 /* eslint-disable react/prop-types */
 import "./Accordions.css";
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import Accordion from "/src/components/globals/Accordion/Accordion";
+import {
+  ChevronRightIcon,
+  PlusIcon,
+  MinusIcon,
+} from "@heroicons/react/24/outline";
 import { useState } from "react";
 
+// const iconLogics = {
+//   chevron: [ChevronRightIcon, ChevronRightIcon],
+//   math: ["plus", "minus"],
+// };
 
-function Accordions({ accordionsData }) {
+function Accordions({ accordionsData, iconType }) {
   const [selectedId, setSelectedId] = useState("");
 
   function handleClick(id) {
@@ -14,6 +22,19 @@ function Accordions({ accordionsData }) {
   return (
     <>
       {accordionsData.map((data) => {
+        const icon = (function () {
+          if (iconType === "chevron")
+            return (
+              <ChevronRightIcon className="accordion-toggle__icon | stroke-cyan-500" />
+            );
+          else if (iconType === "math") {
+            return selectedId === data.id ? (
+              <MinusIcon className="accordion-toggle__icon | stroke-cyan-500" />
+            ) : (
+              <PlusIcon className="accordion-toggle__icon | stroke-cyan-500" />
+            );
+          }
+        })();
         return (
           <Accordion
             accordionId={data.id}
@@ -26,7 +47,7 @@ function Accordions({ accordionsData }) {
                 {data.title}
               </h3>
               <button className="accordion-toggle" aria-label="toggle ">
-                <ChevronRightIcon className="accordion-toggle__icon | stroke-cyan-500" />
+                {icon}
               </button>
             </div>
             <p className="accordion__desc | fs-paragraph-200">{data.desc}</p>

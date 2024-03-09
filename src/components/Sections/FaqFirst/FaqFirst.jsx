@@ -1,5 +1,6 @@
 import Accordions from "../../globals/Accordions/Accordions";
 import SimpleHeader from "../../globals/SimpleHeader/SimpleHeader";
+// import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import "./FaqFirst.css";
 import { nanoid } from "nanoid";
 import { useRef } from "react";
@@ -39,7 +40,7 @@ function FaqFirst() {
         />
         <div className={`faq-main | faq-main--first round-300`}>
           <div className={`faq-accordions`}>
-            <Accordions accordionsData={faqData} />
+            <Accordions accordionsData={faqData} iconType={"chevron"} />
           </div>
         </div>
       </div>
