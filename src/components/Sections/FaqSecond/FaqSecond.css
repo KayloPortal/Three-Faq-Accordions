@@ -1,0 +1,61 @@
+.faq-second {
+  padding-top: 9.0625rem;
+}
+
+.faq-main--second {
+  padding: 6.75rem .5rem;
+  display: grid;
+  gap: 2.5rem;
+  border-radius: var(--radius-300);
+}
+
+.faq-main--second .faq-accordions {
+  width: min(100%, 54.875rem);
+  padding-block: 6rem;
+  background-color: var(--clr-neutral-100);
+  border-radius: var(--radius-200);
+}
+
+.faq-main--second .accordion {
+  max-width: 43.57875rem;
+  margin-inline: auto;
+  padding-right: 1.5rem;
+  padding-left: .5rem;
+  padding-block: 2.375rem;
+  position: relative;
+}
+
+.faq-main--second .accordion:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.0625rem;
+  background-color: var(--clr-neutral-400);
+  opacity: .5;
+}
+
+.faq-main--second .accordion-toggle__icon {
+  width: 1.5rem;
+  height: max-content;
+}
+
+.faq-main--second .accordion__desc {
+  margin-top: .75rem;
+}
+
+/* selected */
+
+.faq-main--second .accordion--selected {
+  /* padding-top: 1rem; */
+  padding-bottom: 1.875rem;
+}
+
+.faq-main--second .accordion--selected .accordion__heading {
+  color: var(--clr-primary-100);
+}
+
+.faq-main--second .accordion--selected .accordion-toggle__icon {
+  stroke: var(--clr-primary-100);
+}
