@@ -81,3 +81,7 @@
   color: var(--clr-neutral-100);
   border: none;
 }
+
+.accordion-toggle {
+  margin-left: 1rem;
+}
