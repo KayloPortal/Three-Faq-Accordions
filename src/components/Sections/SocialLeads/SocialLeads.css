@@ -1,0 +1,9 @@
+.leads {
+  margin-top: 2rem;
+}
+
+.leads-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(36rem,1fr));
+  gap: 1.875rem;
+}
