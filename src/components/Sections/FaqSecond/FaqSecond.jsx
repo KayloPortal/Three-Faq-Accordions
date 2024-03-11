@@ -75,7 +75,7 @@ function FaqSecond() {
   }
 
   return (
-    <div className="faq | faq-second">
+    <div className="faq | faq-second block-padding">
       <div className="container">
         <SimpleHeader
           heading={"2. FAQ Accordion V2"}
