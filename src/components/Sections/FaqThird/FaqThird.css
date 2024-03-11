@@ -9,12 +9,19 @@
   column-gap: 1.5rem;
   /* display: flex; */
   /* flex-wrap: wrap; */
+  row-gap: 1.675rem;
 } 
+
+@media (max-width: 64em) {
+  .faq-main--third .faq-accordions {
+    flex-direction: column;
+  }
+}
 
 .faq-main--third .accordions-wrap {
   display: flex;
   flex-direction: column;
-  row-gap: 1.675rem;
+  row-gap: inherit;
 }
 
 .faq-main--third .accordion {
