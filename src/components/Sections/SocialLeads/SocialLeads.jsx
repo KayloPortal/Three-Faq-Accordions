@@ -18,7 +18,7 @@ function SocialLeads() {
               Also than having free Webflow cloneables, we create cutting-edge
               premium Webflow templates too.
             </p>
-            <a className="card__cta | fs-other-500 clr-primary-100 clr-neutral-100" target="_blank" href="https://brixtemplates.com/figma">
+            <a className="card__cta | fs-other-500 fs-other-400-m clr-primary-100 clr-neutral-100" target="_blank" href="https://brixtemplates.com/figma">
               Browse templates
             </a>
           </div>
@@ -36,7 +36,7 @@ function SocialLeads() {
               If you want to get a hand from the amazing team behind BRIX
               Templates, get in touch with BRIX Agency today.
             </p>
-            <a className="card__cta | fs-other-500 clr-neutral-100" target="_blank" href="https://brixagency.com/figma">
+            <a className="card__cta | fs-other-500 fs-other-400-m clr-neutral-100" target="_blank" href="https://brixagency.com/figma">
               Get a quote
             </a>
           </div>

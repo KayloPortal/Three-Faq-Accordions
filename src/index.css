@@ -77,9 +77,33 @@
 
 @media (max-width: 64em) {
   :root {
-    --fs-heading-100: 2.25rem;
+    --fs-heading-100: 1.925rem;
+
     --fs-heading-200: 1.875rem;
+    --fs-heading-300: 1.25rem;
+    --fs-heading-400: 1.125rem;
+    --fs-heading-500: 1rem;
+    --fs-heading-600: .875rem;
+    --fs-paragraph-100: 0.875rem;
+    --fs-paragraph-200: 1rem;
+
     --fs-paragraph-300: 1.25rem;
+  }
+}
+
+@media (max-width: 50em) {
+  :root {
+    --fs-heading-100: 1.75rem;
+
+    --fs-heading-200: 1.625rem;
+    --fs-heading-300: 1.125rem;
+    --fs-heading-400: 1rem;
+    --fs-heading-500: .875rem;
+    --fs-heading-600: .675rem;
+    --fs-paragraph-100: 0.675rem;
+    --fs-paragraph-200: .875rem;
+
+    --fs-paragraph-300: 1.125rem;
   }
 }
 
@@ -132,7 +156,7 @@
 
 @media (max-width: 64em) {
   .fs-heading-100 {
-    line-height: 2.75rem;
+    line-height: 1.375;
   }
 
   .fs-heading-200 {

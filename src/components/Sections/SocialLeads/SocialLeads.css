@@ -4,6 +4,16 @@
 
 .leads-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(36rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
   gap: 1.875rem;
+}
+
+@media (max-width: 50em) {
+  .card__logo {
+    width: min(100%, 19rem);
+  }
+
+  .card--white .card__logo {
+    width: min(100%, 8.5rem);
+  }
 }

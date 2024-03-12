@@ -115,6 +115,12 @@
   padding: 5rem 3.6875rem 1.25rem 3.6875rem;
 }
 
+@media (max-width: 64em){
+  .card-texts {
+    padding-inline: 1.5rem;
+  }
+}
+
 .card__heading {
   margin-top: 1.25rem;
   margin-bottom: 0.675rem;
