@@ -85,19 +85,24 @@ function FaqSecond() {
         <div className={`faq-main | faq-main--second round-300`}>
           <div className="faq-main-navigators">
             {["Section 1", "Section 2", "Section 3"].map((name, index) => (
-              <button
-                key={name}
-                onClick={() => handlePage(index + 1)}
-                className={`navigator ${
-                  index + 1 === page ? "navigator--selected" : ""
-                } | fs-other-600`}
-              >
-                {name}
-              </button>
+              <div className="navigator-placeholder" key={name}>
+                <button
+                  onClick={() => handlePage(index + 1)}
+                  className={`navigator ${
+                    index + 1 === page ? "navigator--selected" : ""
+                  } | fs-other-600`}
+                >
+                  {name}
+                </button>
+              </div>
             ))}
           </div>
           <div className={`faq-accordions`}>
-            <Accordions accordionsData={faqData[page - 1]} iconType={"math"} needWraper={false}/>
+            <Accordions
+              accordionsData={faqData[page - 1]}
+              iconType={"math"}
+              needWraper={false}
+            />
           </div>
         </div>
       </div>

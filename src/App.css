@@ -72,7 +72,7 @@
 .faq-main-navigators {
   display: grid;
   width: min(100%, 36.96875rem);
-  grid-template-columns: repeat(auto-fill, minmax(11.125rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
   gap: 1.5rem;
 }
 

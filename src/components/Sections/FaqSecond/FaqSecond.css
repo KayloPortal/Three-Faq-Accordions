@@ -1,5 +1,5 @@
 .faq-main--second {
-  padding: 6.75rem .5rem;
+  padding: 6.75rem 0.5rem;
   display: grid;
   gap: 2.5rem;
   border-radius: var(--radius-300);
@@ -16,20 +16,20 @@
   max-width: 43.57875rem;
   margin-inline: auto;
   padding-right: 1.5rem;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   padding-block: 2.375rem;
   position: relative;
 }
 
 .faq-main--second .accordion:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   height: 0.0625rem;
   background-color: var(--clr-neutral-400);
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .faq-main--second .accordion-toggle__icon {
@@ -38,7 +38,12 @@
 }
 
 .faq-main--second .accordion__desc {
-  margin-top: .75rem;
+  margin-top: 0.75rem;
+}
+
+.navigator-placeholder {
+  display: flex;
+  justify-content: center;
 }
 
 /* selected */
@@ -54,4 +59,37 @@
 
 .faq-main--second .accordion--selected .accordion-toggle__icon {
   stroke: var(--clr-primary-100);
+}
+
+.faq-main--second .navigator {
+  width: 100%;
+}
+
+@media (max-widtH: 64em) {
+  .faq-main--second {
+    padding-block: 4rem;
+  }
+
+  .faq-main--second .faq-accordions {
+    padding-block: 2rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .faq-main--second {
+    padding-block: 2rem;
+  }
+
+  .faq-main--second .faq-main-navigators {
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+  }
+
+  .faq-main--second .accordion {
+    padding-inline: 1.5rem;
+  }
+
+  .faq-main--second .navigator {
+    max-width: 9rem;
+  }
 }
