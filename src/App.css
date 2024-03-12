@@ -35,6 +35,14 @@
   place-items: center;
 }
 
+@media(max-width: 35em) {
+  .faq-header {
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1.5rem .5rem;
+  }
+}
+
 .accordion {
   cursor: pointer;
   transition: all 0.1s;

@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2.875rem;
+  padding-inline: 1rem;
 }
 
 .faq-main--first .accordion {
@@ -46,7 +47,7 @@
 .faq-main--first .accordion-toggle {
   background-color: var(--clr-neutral-100);
   border-radius: 50%;
-  width: 3.125rem;
+ width: 3.125rem;
   aspect-ratio: 1;
   display: grid;
   place-items: center;
@@ -76,4 +77,22 @@
 
 .accordion__desc {
   max-width: 58ch;
+}
+
+@media(max-width: 64em) {
+  .faq-main--first {
+    padding-block: 2rem;
+  }
+
+  .faq-main--first .faq-accordions {
+    gap: 1.5rem;
+  }
+
+  .faq-main--first .accordion {
+    padding: 1.5rem 2rem;
+  }
+
+  .faq-main--first .accordion-toggle  {
+    min-width: 2.25rem;
+  }
 }
