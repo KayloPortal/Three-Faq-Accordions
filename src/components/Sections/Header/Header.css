@@ -42,3 +42,10 @@ body {
     --header-h: 5.5rem;
   }
 }
+
+@media(max-width: 35em){
+  .header .header__button {
+    padding: .875rem 1.5rem;
+    font-size: var(--fs-other-200);
+  }
+}
