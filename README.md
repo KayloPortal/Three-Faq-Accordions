@@ -29,7 +29,7 @@
   <p align="center">
     This is a practice project for ReactJS & CSS:
     <br />
-    <a href="https://github.com/KayloPortal/Three-Faq-Accordions"><strong>View The Live Site »</strong></a>
+    <a href="https://65f0621852e96c170831f787--loquacious-florentine-b4d10f.netlify.app/"><strong>View The Live Site »</strong></a>
     <br />
     <br />
     <a href="https://github.com/KayloPortal/Three-Faq-Accordions/issues">Report Bug</a>
@@ -97,7 +97,7 @@ These are technologies I used to develop this mini-project:
 ## Getting Started
 
 You can easily preview the final webite using this url:
-- [Live Site](https:/google.com/)
+- [Live Site](https://65f0621852e96c170831f787--loquacious-florentine-b4d10f.netlify.app/)
 
 Otherwise, You can setup the project locally in a few steps:
 
