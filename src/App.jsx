@@ -6,6 +6,7 @@ import FaqSecond from "./components/Sections/FaqSecond/FaqSecond"
 import FaqThird from "./components/Sections/FaqThird/FaqThird"
 import SocialLeads from "./components/Sections/SocialLeads/SocialLeads"
 import "./App.css"
+import Footer from "./components/Sections/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </main>
       <footer>
         <SocialLeads />
+        <Footer />
       </footer>
     </SubmittedEmailsProvider>
   );
