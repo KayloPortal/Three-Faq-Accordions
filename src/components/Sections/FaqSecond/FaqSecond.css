@@ -68,10 +68,11 @@
 @media (max-widtH: 64em) {
   .faq-main--second {
     padding-block: 4rem;
+    padding-inline: 1rem;
   }
 
   .faq-main--second .faq-accordions {
-    padding-block: 2rem;
+    padding-block: 0rem;
   }
 }
 
@@ -90,6 +91,6 @@
   }
 
   .faq-main--second .navigator {
-    max-width: 9rem;
+    max-width: 12rem;
   }
 }

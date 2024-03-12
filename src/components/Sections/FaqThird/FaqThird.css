@@ -4,18 +4,12 @@
 
 .faq-main--third .faq-accordions {
   display: flex;
-  
+
   /* row-gap: 1.675rem; */
   column-gap: 1.5rem;
   /* display: flex; */
   /* flex-wrap: wrap; */
   row-gap: 1.675rem;
-} 
-
-@media (max-width: 64em) {
-  .faq-main--third .faq-accordions {
-    flex-direction: column;
-  }
 }
 
 .faq-main--third .accordions-wrap {
@@ -31,8 +25,8 @@
 }
 
 .faq-main--third .accordion--selected .accordion__desc {
-  margin-top: .75rem;
-  padding-bottom: .125rem;
+  margin-top: 0.75rem;
+  padding-bottom: 0.125rem;
 }
 
 .faq-main--third .accordion-toggle {
@@ -41,7 +35,7 @@
   display: grid;
   place-items: center;
   aspect-ratio: 1;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .faq-main--third .accordion-toggle__icon {
@@ -56,4 +50,35 @@
 
 .faq-main--third .accordion--selected .accordion-toggle__icon {
   stroke: var(--clr-neutral-100);
+}
+
+@media (max-width: 64em) {
+  .faq-main--third {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+  }
+  .faq-main--third .faq-accordions {
+    flex-direction: column;
+  }
+
+  .faq-main--third .accordion {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .faq-main--third {
+    padding-block: 2rem;
+    padding-inline: 1rem;
+  }
+
+  .accordion-toggle {
+    width: 1.75rem;
+    min-width: 1.75rem;
+  }
+
+  .faq-main--third .accordion {
+    padding-block: 1.25rem;
+    padding-inline: 1.25rem;
+  }
 }

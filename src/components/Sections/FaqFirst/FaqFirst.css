@@ -81,7 +81,7 @@
 
 @media(max-width: 64em) {
   .faq-main--first {
-    padding-block: 2rem;
+    padding-block: 4rem;
   }
 
   .faq-main--first .faq-accordions {
@@ -94,5 +94,11 @@
 
   .faq-main--first .accordion-toggle  {
     min-width: 2.25rem;
+  }
+}
+
+@media(max-width: 35em) {
+  .faq-main--first {
+    padding-block: 2rem;
   }
 }
