@@ -189,7 +189,7 @@ Don't forget to give the project a star! Thanks again!
 
 My name's Mohammad Mahmoodi also known as Kaylo, Pino, Parsa. You can reach me on:
 
-- LinkedIn: [@mohammadmahmoodi](https://twitter.com/mohammadmahmoodi)
+- LinkedIn: [@mohammadmahmoodi](https://linkedin.com/mohammadmahmoodi)
 
 Project Link: [https://github.com/KayloPortal/Three-Faq-Accordions](https://github.com/KayloPortal/Three-Faq-Accordions)
 
